@@ -19,11 +19,12 @@ def din_ner(dinner="salmon")
 end
 
 break_fast("pancakes")
-lun_ch("peanut butter")
-din_ner("broccoli")
-
 break_fast
+lun_ch("peanut butter")
 lun_ch
+din_ner("broccoli")
 din_ner
+
+
 
 ## In our snacks method, the default choice is "Cheetos" Calling snacks like this without specifying a choice will return "Any time, is the right time for Cheetos!"
